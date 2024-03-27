@@ -3,7 +3,6 @@ from flyt_python import api
 
 drone = api.navigation(timeout=120000)
 
-drone.take_off(5.0)
 print("1. Taking Off till height of 5m")
 drone.take_off(5.0)
 
